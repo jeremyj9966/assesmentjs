@@ -25,9 +25,6 @@ const numbers = [1, 2, 3, 4, 5]
 //CODE HERE
 const middleNums =[]
 
-for (let i=1;i<3;i++){
-  
-}
 
 
 //////////////////PROBLEM 4////////////////////
@@ -36,10 +33,21 @@ for (let i=1;i<3;i++){
   Using a for loop, loop over the array called 'bigOrSmallArray', and check to see if the 
   number in the array is GREATER than 100. 
   If it is, push 'big' as a string to the answers array. 
-  If the number is LESS than or EQUAL to 100, push 'small' as a string 
+  If the number is LESS than or EQUAL to 100, push 'small' as a string '
   to the answers array. 
 */
 
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 // CODE HERE
+
+let answers = []
+
+for (let i = 0; i <bigOrSmallArray.length;i++){
+if (bigOrSmallArray[i]> 100){
+  answers.push('big')
+}else ( bigOrSmallArray<=100){
+  answers.push('small')
+}
+}
+console.log(answers)

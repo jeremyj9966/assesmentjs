@@ -10,6 +10,8 @@
 */
 
 //CODE HERE
+let gitDefinition = ('Git is a software used to track and back up your code, and also save software projects for programmers ')
+
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -19,6 +21,8 @@
 
 //CODE HERE
 
+let gitHubDefinition = (' Github is a coding and software hosting platform typically used to create and save projects ')
+
 //////////////////PROBLEM 3////////////////////
 /*
     Create a variable called 'gitInitDefinition'.  
@@ -27,6 +31,8 @@
 
 //CODE HERE
 
+let gitInitDefinition = ('Git init is a command used to initialize a local repository in your local folder')
+
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,6 +40,7 @@
 */
 
 //CODE HERE
+let gitCloneDefinition = ('Git clone is used to copy a repository from github to local')
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,6 +49,7 @@
 */
 
 //CODE HERE
+let gitStatusDefinition = (' git status shows you what changes have been made and which ones havent and also shows yours files that are being tacked by github')
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -54,6 +62,10 @@
 
 //CODE HERE
 
+let gitAddDefinition = ('this command adds files to be tracked')
+
+let gitAddCode('')
+
 //////////////////PROBLEM 7////////////////////
 /*
     Create a variable called 'gitCommitDefinition'.  
@@ -65,6 +77,10 @@
 
 //CODE HERE
 
+let gitCommitDefinition = ('this command creates a snapshot of the files you are tracking')
+
+let gitCommitCode = ('')
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,3 +89,4 @@
 */
 
 //CODE HERE
+ let gitPushDefinition = (' this command just pushes your code up to github')
